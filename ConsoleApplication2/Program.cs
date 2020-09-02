@@ -32,6 +32,7 @@ namespace ConsoleApplication2
                 new List<int>() { 2 , 0 },      // expected => [ 2 , 0 ]
                 new List<int>() { 5 },          // expected => [ 5 ]
                 new List<int>() { },            // expected => [  ]
+                new List<int>() { int.MinValue , 0 , int.MinValue },                // expected => [  0 , -2147483648 ]
             };
 
             #endregion
