@@ -19,7 +19,7 @@ namespace ConsoleApplication1
              * จำนวนเฉพาะ คือ จำนวนเต็มบวกที่ไม่มีเลขจำนวนเต็มบวกใดๆหารมันลงตัวยกเว้น 1 และ ตัวมันเอง
              * ยกตัวอย่างเช่น 2 3 5 7 11 13 17 19 23 29 ...
             */
-            int N = 100;
+            int N = 1000;
             var primeNumber = GetPrimeNumber(N);
             Console.WriteLine("Prime number between 1-{0} is \n[ {1} ]\n", N, String.Join(" ", primeNumber));
         }
