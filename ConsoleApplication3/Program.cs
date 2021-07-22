@@ -10,14 +10,14 @@ namespace ConsoleApplication3
     {
         static void Main(string[] args)
         {
-            /* ข้อ 3
-             * จากข้อมูลที่กำหนดให้ จงหาผู้เล่นที่เงื่อนไขดังนี้ 
-             *  IsActive เป็น true 
-             *  Club.code เป็น MANU หรือ MANC 
-             *  EntryDate เลขเดือน หรือ เลขวันที่ เป็นเลขคี่
-             *  FirstName หรือ LastName ประกอบด้วยตัวอักษร y 
-             *  แต่ตัวอักษร y ไม่ใช่ตัวอักษรตัวสุดท้ายของ FirstName และ LastName
-            */
+            // ข้อ 3
+            // จากข้อมูลที่กำหนดให้ จงหา players ที่เงื่อนไขดังนี้ 
+            //  IsActive เป็น true 
+            //  Club.code เป็น MANU หรือ MANC 
+            //  EntryDate เลขเดือน หรือ เลขวันที่ เป็นเลขคี่
+            //  FirstName หรือ LastName ประกอบด้วยตัวอักษร y 
+            //  แต่ตัวอักษร y ไม่ใช่ตัวอักษรตัวสุดท้ายของ FirstName และ LastName
+
             #region Mockup data
             List<Player> players = new List<Player>()
             {
@@ -130,14 +130,14 @@ namespace ConsoleApplication3
 
             var result = players;
 
-            //เขียนโค๊ดตรงนี้เลยจร้า
+            // เขียนโค๊ดตรงนี้เลยจ้า
 
 
-            Console.WriteLine("Result is ");
-            foreach(var i in result)
+            Console.WriteLine("Result is \n");
+            foreach (var i in result)
             {
-                Console.WriteLine("{0} {1} {2}\n{3} {4} {5}\n{6}\n", 
-                    i.PlayerId , i.FirstName , i.LastName ,
+                Console.WriteLine("{0} {1} {2}\n{3} {4} {5}\n{6}\n",
+                    i.PlayerId, i.FirstName, i.LastName,
                     i.IsActive, i.Club.Name, i.Club.Code,
                     i.EntryDate.Value.ToShortDateString());
             }

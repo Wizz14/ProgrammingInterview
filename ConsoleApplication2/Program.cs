@@ -10,11 +10,11 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
-            /* ข้อ 2
-             * จาก List<int> ที่กำหนดให้
-             * จงหาจำนวนที่มีค่าสูงสุด 2 อันดับแรก โดยไม่ใช้คำสั่ง .Min() .Max() .Sort() .OrderBy() .OrderByDescending()
-             * ตัวเลขที่ค่าเท่ากัน ให้นับเป็นคนละตัวกัน เช่น Top2Max([ 99 , 98 , 99 ]) ได้ [ 99 , 99 ]
-            */
+            // ข้อ 2
+            // จาก List<int> ที่กำหนดให้
+            // จงหาจำนวนที่มีค่าสูงสุด 2 อันดับแรก โดยไม่ใช้คำสั่ง .Min() .Max() .Sort() .OrderBy() .OrderByDescending()
+            // ตัวเลขที่ค่าเท่ากัน ให้นับเป็นคนละตัวกัน เช่น GetTop2Max([ 99 , 98 , 99 ]) ได้ [ 99 , 99 ]
+
             #region Example data
             List<List<int>> listSampleNumber = new List<List<int>>()
             {
@@ -49,7 +49,8 @@ namespace ConsoleApplication2
         static List<int> GetTop2Max(List<int> number)
         {
             List<int> top2Max = new List<int>();
-            //เขียนโค๊ดตรงนี้เลยจร้า
+
+            // เขียนโค๊ดตรงนี้เลยจ้า
 
             return top2Max;
         }
