@@ -31,19 +31,4 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://isishq11.bla.co.th:8080/tfs/isis2013
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ConsoleApplication1\\ConsoleApplication1.csproj
-		SccProjectName1 = ConsoleApplication1
-		SccLocalPath1 = ConsoleApplication1
-		SccProjectUniqueName2 = ConsoleApplication2\\ConsoleApplication2.csproj
-		SccProjectName2 = ConsoleApplication2
-		SccLocalPath2 = ConsoleApplication2
-		SccProjectUniqueName3 = ConsoleApplication3\\ConsoleApplication3.csproj
-		SccProjectName3 = ConsoleApplication3
-		SccLocalPath3 = ConsoleApplication3
-	EndGlobalSection
 EndGlobal
