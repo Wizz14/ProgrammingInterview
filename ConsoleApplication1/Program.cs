@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             // ข้อ 1
             // รับพารามิเตอร์เป็น int ชื่อ n
@@ -27,7 +27,7 @@ namespace ConsoleApplication1
 
         static List<int> GetPrimeNumber(int n)
         {
-            List<int> primeNumber = new List<int>();
+            List<int> primeNumber = new List<int>(); 
 
             // เขียนโค๊ดตรงนี้เลยจ้า
 

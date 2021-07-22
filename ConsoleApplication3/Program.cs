@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication3
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             // ข้อ 3
             // จากข้อมูลที่กำหนดให้ จงหา players ที่เงื่อนไขดังนี้ 

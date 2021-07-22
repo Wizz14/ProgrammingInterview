@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication2
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             // ข้อ 2
             // จาก List<int> ที่กำหนดให้
